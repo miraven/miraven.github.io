@@ -47,7 +47,7 @@ export default function Home() {
           ML Engineer 👨🏻‍💻 / Basketball Jones 🏀 / Anime Lover 🥷🏼
         </Heading>
         <Box paddingTop={'10'} fontSize={'lg'} textAlign={'center'}>
-          I'm a software engineer developing scalable ML solutions and components at Capital One.
+          I&apos;m a software engineer developing scalable ML solutions and components at Capital One.
           Current interests include autonomous systems, generative AI, and overall just building intelligent things.
         </Box>
         <Socials/>
