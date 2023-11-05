@@ -66,7 +66,7 @@ export default function Projects() {
                 <LinkOverlay href='https://github.com/miraven/mars-glider'>
                   <Heading size='md'>Mars Glider</Heading>
                 </LinkOverlay>
-                <Text>
+                <Text fontSize={'sm'} flexWrap={'wrap'}>
                   As part of the OMSCS program, I took a course in AI Robotics Techniques. One of the projects
                   revolved around Particle Filters and its role in Localization. The objective was to localize
                   the purple target using instantiated particles. I really enjoyed this project since it required
@@ -76,10 +76,10 @@ export default function Projects() {
             </CardBody>
             <CardFooter>
               <HStack spacing='2'>
-                <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
+                <Tag fontSize={'xs'} borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
                   Particle Filter
                 </Tag>
-                <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
+                <Tag fontSize={'xs'} borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
                   Robotics
                 </Tag>
               </HStack>
@@ -100,7 +100,7 @@ export default function Projects() {
                 <LinkOverlay href='https://www.youtube.com/watch?v=WUC9OGQcqt8'>
                   <Heading size='md'>Jester</Heading>
                 </LinkOverlay>
-                <Text>
+                <Text fontSize={'sm'} flexWrap={'wrap'}>
                   Jester is a gesture recognition prototype developed for OXOS Medical in Atlanta
                   as part of my senior capstone project. Our team built the prototype on a 2D CNN
                   architecture using Tensorflow with manually collected image dataset. I later worked
@@ -111,10 +111,10 @@ export default function Projects() {
             </CardBody>
             <CardFooter>
               <HStack spacing='2'>
-                <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
+                <Tag fontSize={'xs'} borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
                   Gesture Recognition
                 </Tag>
-                <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
+                <Tag fontSize={'xs'} borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
                   Computer Vision
                 </Tag>
               </HStack>
@@ -135,7 +135,7 @@ export default function Projects() {
                 <LinkOverlay href='https://github.com/miraven/NBA_MVP_Predictions-'>
                   <Heading size='md'>NBA MVP Predictions</Heading>
                 </LinkOverlay>
-                <Text>
+                <Text fontSize={'sm'} flexWrap={'wrap'}>
                   Back in 2019, I debated a friend on who is the rightful NBA MVP.
                   I was also in an Intro to ML class that year, and I thought I&apos;d make a notebook
                   predicting who the MVP should be given the statlines of past MVP&apos;s using an ensemble 
@@ -146,13 +146,13 @@ export default function Projects() {
             </CardBody>
             <CardFooter>
               <HStack spacing='2'>
-                <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
+                <Tag fontSize={'xs'} borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
                   Analytics
                 </Tag>
-                <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
+                <Tag fontSize={'xs'} borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
                   Data Science
                 </Tag>
-                <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
+                <Tag fontSize={'xs'} borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
                   Machine Learning
                 </Tag>
               </HStack>
@@ -173,7 +173,7 @@ export default function Projects() {
                 <LinkOverlay href='https://github.com/miraven/miraven.github.io/tree/master'>
                   <Heading size='md'>Portfolio Website using Chakra UI</Heading>
                 </LinkOverlay>
-                <Text>
+                <Text fontSize={'sm'} flexWrap={'wrap'}>
                   I&apos;ve never built a website before. I didn&apos;t want to use a template.
                   So I watched a few videos about building portfolio websites and
                   got to learn a little about the vast front-end world that is React, NextJS, and ChakraUI.
@@ -184,13 +184,13 @@ export default function Projects() {
             </CardBody>
             <CardFooter>
               <HStack spacing='2'>
-                <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
+                <Tag fontSize={'xs'} borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
                   NextJS
                 </Tag>
-                <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
+                <Tag fontSize={'xs'} borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
                   Chakra UI
                 </Tag>
-                <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
+                <Tag fontSize={'xs'} borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
                   React
                 </Tag>
               </HStack>

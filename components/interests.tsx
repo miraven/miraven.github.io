@@ -146,7 +146,7 @@ export default function Interests() {
                   <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }} color={'whitesmoke'}>
                     {card.title}
                   </Heading>
-                  <Text fontSize={{ base: 'md', lg: 'lg' }} fontWeight={"bold"} color="whitesmoke">
+                  <Text fontSize={{ base: 'md', lg: 'lg' }} fontWeight={"bold"} color="whitesmoke" flexWrap={'wrap'}>
                     {card.text}
                   </Text>
                 </Stack>
