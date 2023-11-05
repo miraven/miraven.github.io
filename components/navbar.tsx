@@ -18,9 +18,10 @@ import {
   Stack,
   useColorMode,
   Link,
-  Center,
+  IconButton,
 } from '@chakra-ui/react';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
+import { HamburgerIcon } from '@chakra-ui/icons'
 import styled from '@emotion/styled';
 
 const NavLink = ({ children }: { children: ReactNode }) => (
@@ -96,7 +97,16 @@ export default function Nav() {
             <MiRavenLogo />
           </Heading>
           <Flex alignItems={'center'}>
-            <Stack alignItems={"center"} direction={'row'} spacing={7}>
+            <Stack 
+              direction={{ base: 'column', md: 'row' }}
+              display={{ base: 'none', md: 'flex' }}
+              width={{ base: 'full', md: 'auto' }}
+              alignItems="center"
+              flexGrow={1}
+              spacing={5}
+              padding={5}
+              mt={{ base: 4, md: 0 }}
+            >
                 <Link href='/resume_2023.pdf'>                    
                     <Box
                         // color={useColorModeValue('teal.100', 'teal.500')}
@@ -137,10 +147,37 @@ export default function Nav() {
                         Blog
                     </Box>
                 </Link>
+            </Stack>
+            <Box flex={1}>
                 <Button onClick={toggleColorMode}>
                     {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
                 </Button>
-            </Stack>
+
+              <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
+                <Menu isLazy id="navbar-menu">
+                  <MenuButton
+                    as={IconButton}
+                    icon={<HamburgerIcon />}
+                    variant="outline"
+                    aria-label="Options"
+                  />
+                  <MenuList>
+                    <MenuItem as={Link} href="/resume_2023.pdf">
+                      Resume
+                    </MenuItem>
+                    <MenuItem as={Link} href="/blog">
+                      Blog
+                    </MenuItem>
+                    <MenuItem
+                      as={Link}
+                      href="https://github.com/miraven/miraven.github.io/tree/master"
+                    >
+                      Source
+                    </MenuItem>
+                  </MenuList>
+                </Menu>
+              </Box>
+            </Box>
           </Flex>
         </Flex>
       </Box>

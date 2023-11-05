@@ -100,7 +100,7 @@ export default function Footer() {
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}>
         <MiRavenLogo />
-        <Text>© 2023 Raven Nuega. The colorscheme of this website is inspired by Mihawk from One Piece. 🤗</Text>
+        <Text align={'center'}>© 2023 Raven Nuega. The colorscheme of this website is inspired by Mihawk from One Piece. 🤗</Text>
         <Stack direction={'row'} spacing={6}>
           <SocialButton label={'Twitter'} href={'https://twitter.com/DraculeMiRaven'}>
             <FaTwitter />
