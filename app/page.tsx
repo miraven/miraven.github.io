@@ -1,95 +1,63 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+"use client"
+
+import { 
+  Container, 
+  Heading,
+  Text,
+  Box,
+  Center,
+  Wrap,
+  useColorModeValue,
+  useColorMode,
+  Highlight,
+  HStack,
+  Link
+} from '@chakra-ui/react'
+import Selfie from '@/components/selfie'
+import Projects from '@/components/projects'
+import Socials from '@/components/socials'
+import Skills from '@/components/skills'
+import Footer from '@/components/footer'
+import Nav from '@/components/navbar'
+import Interests from '@/components/interests'
+import About from '@/components/about'
 
 export default function Home() {
+  const { colorMode, toggleColorMode } = useColorMode()
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+    <main>
+      <Nav/>
+      <Selfie/>
+      <Container alignContent={'center'} maxWidth={'5xl'}>
+        <Heading 
+          textAlign={'center'} 
+          fontSize={'5xl'}
+          fontWeight={'black'}
+          marginTop={'5'}
+          // color={useColorModeValue('teal.400', 'teal.100')}
+          // bgGradient={'linear(to-r, green.500, cyan.400)'}
+          bgGradient={useColorModeValue('linear(to-l, #6a1eac, #FF0080)', 'linear(to-l, #0ce8cc, cyan.600)')}
+          // bgGradient={'linear(to-l, #6a1eac, #FF0080)'}
+          bgClip={'text'}
         >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+          Raven Nuega
+        </Heading>
+        <Heading textAlign={'center'} padding={4.0} fontSize={'xl'} fontFamily={'monospace'} fontWeight={'black'}>
+          ML Engineer 👨🏻‍💻 / Basketball Jones 🏀 / Anime Lover 🥷🏼
+        </Heading>
+        <Box paddingTop={'10'} fontSize={'lg'} textAlign={'center'}>
+          I'm a software engineer developing scalable ML solutions and components at Capital One.
+          Current interests include autonomous systems, generative AI, and overall just building intelligent things.
+        </Box>
+        <Socials/>
+        <About/>
+        <Interests/>
+        <Skills/> 
+        <Projects/>
+      </Container>
+      <Footer/>
     </main>
   )
 }
+//useColorModeValue('twitter.500', 'twitter.200')
