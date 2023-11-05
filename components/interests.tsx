@@ -135,12 +135,12 @@ export default function Interests() {
               backgroundSize="cover"
               backgroundImage={`url(${card.image})`}>
               {/* This is the block you need to change, to customize the caption */}
-              <Container size="container.lg" height="600px" position="relative">
+              <Container height="600px" position="relative">
                 <Stack
                   spacing={6}
                   w={'full'}
                   maxW={'lg'}
-                  position="absolute"
+                  position="sticky"
                   top="50%"
                   transform="translate(0, -50%)">
                   <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }} color={'whitesmoke'}>
