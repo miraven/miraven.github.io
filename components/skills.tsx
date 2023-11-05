@@ -154,7 +154,7 @@
                       </Text>
                       <Progress hasStripe isAnimated value={99} size={'sm'} colorScheme={useColorModeValue('cyan', 'purple')}/>
                       <Text padding={4.0} fontSize={'lg'} fontWeight={'bold'} px={'-12'}>
-                        PyTorch, LLM's, Deep Q Learning, ROS
+                        PyTorch, LLMs, Deep Q Learning, ROS
                       </Text>
                       <Progress hasStripe isIndeterminate size={'sm'} colorScheme={useColorModeValue('cyan', 'purple')}/>
                     </CardBody>
@@ -179,55 +179,64 @@
                     </Heading>
                     <Wrap justify={'center'} p={'10'} spacing={'8'} maxW={'container.lg'}>
                       <Image 
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                        alt="python logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"
                       />
                       <Image 
                         src="https://companieslogo.com/img/orig/SNOW-35164165.png?t=1634190631" 
+                        alt="snowflake logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="scale-down"
                       />
                       <Image 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"
                       />
                       <Image 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"
                       />
                       <Image 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"
                       />
                       <Image 
                         src="https://icon.icepanel.io/Technology/svg/scikit-learn.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"
                       />
                       <Image 
                         src="https://asset.brandfetch.io/id72svQ_Rq/ido9m2u7iI.png?updated=1692638484407" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="scale-down"
                       />
                       <Image 
                         src="https://h2o.ai/company/brand-kit/_jcr_content/root/container/section/par/advancedcolumncontro/columns1/advancedcolumncontro/columns0/image.coreimg.png/1683145585206/h-2-o-logo.png" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"
                       />
                       <Image 
                         src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         bgColor={'white'}
@@ -237,54 +246,63 @@
                       />
                       <Image
                         src="https://docs.dask.org/en/stable/_images/dask_icon.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="scale-down"
                       />
                       <Image 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"
                       />
                       <Image 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"
                       />
                       <Image 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"
                       />
                       <Image 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"
                       />
                       <Image 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"
                       />
                       <Image 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"
                       />
                       <Image 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"
                       />
                       <Image 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original-wordmark.svg" 
+                        alt="logo"
                         cursor="pointer"
                         boxSize="100px"
                         objectFit="cover"

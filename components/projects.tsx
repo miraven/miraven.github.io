@@ -133,8 +133,8 @@ export default function Projects() {
                 </LinkOverlay>
                 <Text>
                   Back in 2019, I debated a friend on who is the rightful NBA MVP.
-                  I was also in an Intro to ML class that year, and I thought I'd make a notebook
-                  predicting who the MVP should be given the statlines of past MVP's using an ensemble 
+                  I was also in an Intro to ML class that year, and I thought I&apos;d make a notebook
+                  predicting who the MVP should be given the statlines of past MVP&apos;s using an ensemble 
                   of common ML models. Needless to say, the data proves my argument -- James Harden deserved
                   to be MVP. 😤
                 </Text>
@@ -170,10 +170,10 @@ export default function Projects() {
                   <Heading size='md'>Portfolio Website using Chakra UI</Heading>
                 </LinkOverlay>
                 <Text>
-                  I've never built a website before. I didn't want to use a template.
+                  I&apos;ve never built a website before. I didn&apos;t want to use a template.
                   So I watched a few videos about building portfolio websites and
                   got to learn a little about the vast front-end world that is React, NextJS, and ChakraUI.
-                  Although my React code is pretty noob (don't look 🫣), this site has a lot of me in it and I had a blast
+                  Although my React code is pretty noob (don&apos;t look 🫣), this site has a lot of me in it and I had a blast
                   developing it!
                 </Text>
               </Stack>

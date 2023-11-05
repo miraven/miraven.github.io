@@ -25,7 +25,7 @@ export default function About() {
           A curious case of a man fascinated with stories, AI, physics, philosophy, anime power structures,
           and the invisible thread that connects all disparate things and ideas. In my free time, I play a lot of basketball,
           watch anime, and start fun software projects! I have a beautiful wife 👩🏿‍⚕️. I take care of a dog named Frankie Ocean 🐶.
-          Overall, I'm working on being active on Github and actively working to share my overflowing glob of ideas on my blog. ✌🏼
+          Overall, I&apos;m working on being active on Github and actively working to share my overflowing glob of ideas on my blog. ✌🏼
         </Text> 
       </Box>
     )
