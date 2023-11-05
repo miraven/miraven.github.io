@@ -17,9 +17,9 @@ import {
   useColorModeValue,
   Stack,
   useColorMode,
+  Link,
   Center,
 } from '@chakra-ui/react';
-import { Link } from '@chakra-ui/next-js';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import styled from '@emotion/styled';
 

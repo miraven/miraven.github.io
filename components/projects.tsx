@@ -52,36 +52,40 @@ export default function Projects() {
           Projects
       </Heading>
       <Wrap spacing={'12'} justify={'center'} paddingBlock={'10'}>
-        <Card maxW='md' height={'xl'}>
-          <CardBody>
-            <Image
-              src='mars_glider.gif'
-              alt='Particle Filter'
-              borderRadius='lg'
-              height={'3xs'}
-              width={'md'}
-            />
-            <Stack mt='6' spacing='3'>
-              <Heading size='md'>Mars Glider</Heading>
-              <Text>
-                As part of the OMSCS program, I took a course in AI Robotics Techniques. One of the projects
-                revolved around Particle Filters and its role in Localization. The objective was to localize
-                the purple target using instantiated particles. I really enjoyed this project since it required
-                implementing the algorithm as well as tuning the movement of the particles. 
-              </Text>
-            </Stack>
-          </CardBody>
-          <CardFooter>
-            <HStack spacing='2'>
-              <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
-                Particle Filter
-              </Tag>
-              <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
-                Robotics
-              </Tag>
-            </HStack>
-          </CardFooter>
-        </Card>
+        <LinkBox as='article'>
+          <Card maxW='md' height={'xl'}>
+            <CardBody>
+              <Image
+                src='mars_glider.gif'
+                alt='Particle Filter'
+                borderRadius='lg'
+                height={'3xs'}
+                width={'md'}
+              />
+              <Stack mt='6' spacing='3'>
+                <LinkOverlay href='https://github.com/miraven/mars-glider'>
+                  <Heading size='md'>Mars Glider</Heading>
+                </LinkOverlay>
+                <Text>
+                  As part of the OMSCS program, I took a course in AI Robotics Techniques. One of the projects
+                  revolved around Particle Filters and its role in Localization. The objective was to localize
+                  the purple target using instantiated particles. I really enjoyed this project since it required
+                  implementing the algorithm as well as tuning the movement of the particles. 
+                </Text>
+              </Stack>
+            </CardBody>
+            <CardFooter>
+              <HStack spacing='2'>
+                <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
+                  Particle Filter
+                </Tag>
+                <Tag size='md' borderRadius='full' variant='subtle' colorScheme={useColorModeValue('pink', 'cyan')}>
+                  Robotics
+                </Tag>
+              </HStack>
+            </CardFooter>
+          </Card>
+        </LinkBox>
         <LinkBox as='article'>
           <Card maxW='md' height={'xl'}>
             <CardBody>
@@ -166,7 +170,7 @@ export default function Projects() {
                 width={'md'}
               />
               <Stack mt='6' spacing='3'>
-                <LinkOverlay href='#'>
+                <LinkOverlay href='https://github.com/miraven/miraven.github.io/tree/master'>
                   <Heading size='md'>Portfolio Website using Chakra UI</Heading>
                 </LinkOverlay>
                 <Text>
